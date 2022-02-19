@@ -1,0 +1,12 @@
+<suite name="targetSuite">
+	<test name="targetTest">
+		<classes>
+			<class name="com.bit.test.SmokeTest">
+				<methods>
+					<include name="targetScenario"></include>
+					<include name="targetScenario2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

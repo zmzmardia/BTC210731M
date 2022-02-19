@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [targetSuite]">
+  <test thread-count="5" name="targetTest(failed)">
+    <classes>
+      <class name="com.bit.test.SmokeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="CheckingResult"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="targetScenario2"/>
+          <include name="targetScenario"/>
+        </methods>
+      </class> <!-- com.bit.test.SmokeTest -->
+    </classes>
+  </test> <!-- targetTest(failed) -->
+</suite> <!-- Failed suite [targetSuite] -->

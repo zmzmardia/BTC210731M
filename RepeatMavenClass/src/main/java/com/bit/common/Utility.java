@@ -18,7 +18,7 @@ public class Utility {
 	}
 	
 	public void click() {
-		
+		dr.findElement(By.id("")).click();
 	}
 
 }

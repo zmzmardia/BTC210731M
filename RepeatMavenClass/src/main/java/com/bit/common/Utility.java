@@ -16,5 +16,9 @@ public class Utility {
 	public void clickOnAnyElement(WebElement ele) {
 		ele.click();
 	}
+	
+	public void click() {
+		
+	}
 
 }

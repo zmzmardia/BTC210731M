@@ -18,7 +18,7 @@ public class SmokeTest extends BaseTest{
 	}
 	
 	public void target() {
-		
+		dr.findElement(By.className("")).click();
 	}
 
 }

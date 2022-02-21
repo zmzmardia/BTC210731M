@@ -16,5 +16,9 @@ public class SmokeTest extends BaseTest{
 	     dr.findElement(By.xpath("//*[@id=\"headerMain\"]/a[3]")).click();
 	     dr.findElement(By.xpath("//*[@id=\"categoriesMenu\"]/ul/li[1]")).click();
 	}
+	
+	public void target() {
+		
+	}
 
 }
